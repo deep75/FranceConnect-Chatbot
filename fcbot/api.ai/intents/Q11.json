@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "a829c382-406b-47ce-bdc0-b07bf3ba42e8",
+      "data": [
+        {
+          "text": "Est-ce que le sub que je reçois est lié à l\u0027identité de l\u0027utilisateur ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3e436d5f-5ec4-407b-9d9b-a8bbddf18bcd",
+  "name": "Q11",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, le sub est généré aléatoirement."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

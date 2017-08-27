@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "7eff2a0b-7a4e-4bb5-bfdd-16f9ee073df5",
+      "data": [
+        {
+          "text": "Pour un utilisateur donné, est-ce que tous les FS reçoivent le même sub ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c20ed1a9-dec3-4d15-be1e-4eb49149d6a4",
+  "name": "Q10",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, un utilisateur donné a un sub différent pour chaque FS."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "13fd0b9e-634a-4130-9ec0-1273a64c6739",
+      "data": [
+        {
+          "text": "Comment est-on sûr que l\u0027"
+        },
+        {
+          "text": "agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " s\u0027est authentifié avec le niveau d\u0027authentification attendu par le "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "965415a8-caad-484d-a601-1a837c88d0a5",
+  "name": "Q123",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le FI ne présente à l\u0027agent que les choix d\u0027authentification répondant aux niveaux minimum attendus (Si niveau substantiel attendu, le FI peut présenter le niveau substantiel et fort). FCA vérifie le niveau d\u0027authentification retourné par le FI. Et si celui si ne correspond pas, il renvoie une erreur et renvoie l\u0027agent à la mire de login."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "059594c8-4409-4556-a0bb-2677fe5b5f7c",
+      "data": [
+        {
+          "text": "En tant que fournisseur d\u0027identité, comment mettre en oeuvre FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8cb649a5-538b-42d7-a900-913335089fc4",
+  "name": "Q19",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le détail des étapes est disponible dans l\u0027Annexe processus de raccordement du fournisseur d\u0027identité \u003d\u003e https://franceconnect.gouv.fr/files/CDA%20FI%20-%20Processus%20d\u0027implementation%20de%20FC%20par%20FI%20V2.1.pdf"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

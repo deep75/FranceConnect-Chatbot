@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "84806bdd-ded0-485b-bc8f-39b57eeda6fb",
+      "data": [
+        {
+          "text": "Dois-je respecter une charte particulière ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5fc0e2db-4ebb-4a08-ae48-9fd0db3a8e85",
+  "name": "Q22",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui. Le fournisseur d’identité doit implémenter sur la page de connexion les éléments suivants :\n\n    - IHM Responsive :\n    Afin de pouvoir s’adapter à l’ensemble des supports matériel que peuvent utiliser les usagers.\n\n    - Un lien \"Changer de fournisseur\" :\n    Afin de permettre à l’usager de retourner sur la mire FranceConnect présentant les différents fournisseurs d\u0027identité.\n\n    - Le fond d\u0027écran FranceConnect :\n    Afin d\u0027uniformiser les pages de connexion des différents fournisseurs d\u0027identité. Le fond d\u0027écran est disponible en téléchargement ici : https://franceconnect.gouv.fr/images/logo_marianne.png - Le label FranceConnect\nAfin de faciliter la reconnaissance des usagers de leur connexion au fournisseur d\u0027identité en passant par FranceConnect. Le label est disponible ici : https://franceconnect.gouv.fr/files/certif.zip"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

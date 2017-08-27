@@ -1,0 +1,98 @@
+{
+  "userSays": [
+    {
+      "id": "34b94c24-e094-43a0-9caa-bede011de77c",
+      "data": [
+        {
+          "text": "Qui sont les fournisseurs de services présents dans le pilote "
+        },
+        {
+          "text": "FC",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6562e74-30cf-47f3-8ff6-9ade59a1fa71",
+      "data": [
+        {
+          "text": "Qui sont les fournisseurs d\u0027identité présents dans le pilote "
+        },
+        {
+          "text": "FC",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2a2651f8-4a43-48b2-983f-e6538e31e507",
+  "name": "Q103",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ceci est à définir lors des Open labs !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

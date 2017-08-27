@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "e607d5b6-d279-4ab3-8ffc-13d59899c3fa",
+      "data": [
+        {
+          "text": "Quelles informations utilisateurs dois-je renvoyer à FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "60831c43-2aeb-4614-a3f4-b376ff427733",
+  "name": "Q23",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "L’identité pivot, qui est un ensemble de données concernant un utilisateur. Cette identité pivot est fournie par les FI aux FS, via FranceConnect. Elle permet d\u0027identifier un utilisateur particulier ou entreprise.\nFranceConnect Particulier\n\n    given_name [type\u003dstring]\n    prénoms séparés par des espaces (standard OpenIDConnect)\n\n    family_name [type\u003dstring]\n    le nom de famille de naissance (standard OpenIDConnect)\n\n    birthdate [type\u003dstring]\n    la date de naissance au format YYYY-MM-DD (standard OpenIDConnect)\n\n    gender [type\u003dstring]\n    male pour les hommes, female pour les femmes (standard OpenIDConnect)\n\n    birthplace [type\u003dstring]\n    le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l\u0027étranger)\n\n    birthcountry [type\u003dstring]\n    le code INSEE du pays de naissance\n\nFranceConnect Entreprise\n\n    given_name [type\u003dstring]\n    prénoms séparés par des espaces (standard OpenIDConnect)\n\n    family_name [type\u003dstring]\n    le nom de famille (standard OpenIDConnect)\n\n    email [type\u003dstring]\n    l\u0027adresse mail de la personne\n\n    siret [type\u003dstring]\n    le numéro SIRET ou SIREN de l\u0027entreprise (non standard)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

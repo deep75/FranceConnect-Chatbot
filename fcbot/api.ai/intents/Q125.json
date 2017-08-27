@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "9ef2c203-001c-45d8-ab56-53273dda1d76",
+      "data": [
+        {
+          "text": "Comment les droits d\u0027accès sont gérés lors de prise de congés et délégation temporaire des droits ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "422da4c7-0098-4b57-9fe3-7e571283bf92",
+      "data": [
+        {
+          "text": "Comment les droits d\u0027accès sont supprimés lorsqu\u0027"
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " n\u0027est plus employé à son poste ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6849247d-90dd-45fa-84f7-b29d27b449e9",
+  "name": "Q125",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "C\u0027est de la responsabilité des FI d\u0027avoir une liste d\u0027agents disponibles à jour."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

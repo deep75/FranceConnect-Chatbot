@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "42ebc3b9-4d34-4dcc-9534-fd3fd4bdc629",
+      "data": [
+        {
+          "text": "Est-ce que je reçois le même sub si l\u0027utilisateur se connecte via différents FI ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "834ba707-2d38-4383-9fdb-d04d0febb305",
+  "name": "Q9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui, ce sera bientôt le cas, quand il y aura plusieurs FI."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

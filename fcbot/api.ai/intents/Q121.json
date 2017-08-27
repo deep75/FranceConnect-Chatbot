@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "2ba2388e-ca68-432c-96a8-3c5349a036ca",
+      "data": [
+        {
+          "text": "Que se passe t-il si les "
+        },
+        {
+          "text": "informations",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " demandées au "
+        },
+        {
+          "text": "fournisseur d\u0027identités",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " sont incomplètes ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7b49d174-72fa-4b2f-a073-ac45c54bd24e",
+  "name": "Q121",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Si les informations obligatoires sont absentes, il y a un blocage côté FranceConnect Agent. FCA renvoie une erreur vers l\u0027agent au moment de se connecter."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

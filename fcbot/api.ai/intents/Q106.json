@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "051cc8f1-d536-423d-ba99-49457ce5f922",
+      "data": [
+        {
+          "text": "Où trouver la "
+        },
+        {
+          "text": "documentation",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "FC",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms2",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "120b356d-045a-460c-b93b-52d436b7744c",
+      "data": [
+        {
+          "text": "Quelle aide pour le développement ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0c7f6857-d974-4548-9ae9-bec17619969d",
+  "name": "Q106",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms2",
+          "value": "$Synonyms2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Vous trouverez les informations disponibles à cette adresse : https://fcagentdevelopers.integ01.dev-franceconnect.fr/"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

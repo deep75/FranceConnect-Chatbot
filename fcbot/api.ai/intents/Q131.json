@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "daeb2f91-f6de-48a7-88b9-226679939397",
+      "data": [
+        {
+          "text": "En tant que "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": ", ai-je la possibilité de filtrer la liste des "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " qui sont autorisés à m\u0027interroger ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "c8ade9a5-f1e0-46d7-a719-d898884c93c2",
+  "name": "Q131",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "FCA retourne l\u0027identifiant du fournisseur de service afin que le fournisseur d\u0027identité accepte ou refuse de délivrer les données d\u0027identification concernant l\u0027agent."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

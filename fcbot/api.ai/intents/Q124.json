@@ -1,0 +1,105 @@
+{
+  "userSays": [
+    {
+      "id": "e4a9e3d5-b074-44e6-ad36-ab6a398fa983",
+      "data": [
+        {
+          "text": "SI je suis Fournisseur d\u0027"
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " service disponible uniquement sur le "
+        },
+        {
+          "text": "RIE",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": ", puis-je utiliser "
+        },
+        {
+          "text": "FCA",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " qui est sur Internet ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41f385d5-bc87-42f2-b5f8-f6f4fd2e0c26",
+      "data": [
+        {
+          "text": "Faut-il héberger les instances sur Internet pour communiquer avec "
+        },
+        {
+          "text": "FranceConnect Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d91034b3-15c2-4481-adf3-32c00a564144",
+  "name": "Q124",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le Fournisseur de Service, s\u0027il peut accéder à Internet (flux de sortie), peut appeler les APIs de FCA sans être obligatoirement visible sur Internet (flux d\u0027entrée) !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

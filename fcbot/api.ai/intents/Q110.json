@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "5badc0a2-2d61-4c9b-b05b-68d8f37a26ca",
+      "data": [
+        {
+          "text": "Comment faire pour gérer des attributs supplémentaires n\u0027étant pas inclus dans la "
+        },
+        {
+          "text": "documentation",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " de "
+        },
+        {
+          "text": "FCA",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "04ebdff9-fa28-4ac3-ba1b-7e4e0af12f50",
+  "name": "Q110",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "FranceConnect Agent est un intermédiaire qui transmet les scopes tels quels, des Fis aux FS ou des FS aux FIS. Le modèle de FCA est construit pour pouvoir avoir des attributs ajoutés par la suite facilement."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

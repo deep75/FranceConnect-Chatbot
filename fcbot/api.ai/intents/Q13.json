@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "3763e547-dd2f-4ecb-8f98-20c812c3e575",
+      "data": [
+        {
+          "text": "Est-ce que je peux initier la cinématique OpenID Connect sur le endpoint d\u0027autorisation, et demander les userInfo plus tard ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "555cf35c-1972-4e49-b2cb-32bf47b7cb75",
+  "name": "Q13",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, la cinématique complète (3 endpoints) doit être faite d’un bloc."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

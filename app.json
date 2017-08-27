@@ -1,0 +1,7 @@
+{
+  "name": "Chatbot FranceConnect",
+  "description": "Chatbot de test pour FC Agent et Particulier",
+  "repository": "https://github.com/deep75/franceconnect-chatbot",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "chatbot", "FCA", "FCP"]
+}

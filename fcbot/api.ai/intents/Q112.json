@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "a6245645-8b76-464a-815e-3a83099c61a1",
+      "data": [
+        {
+          "text": "Sait-on proposer avec "
+        },
+        {
+          "text": "FranceConnect Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " des niveaux d\u0027authentification substentiels élevés ou forts ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fb673995-2ca1-4ffc-8a5d-76312584a31b",
+  "name": "Q112",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, cela reste à développer : elles seront commune avec FCP !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

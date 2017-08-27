@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "f966e3ba-ff25-42ac-b0fd-fb8c5a3124fc",
+      "data": [
+        {
+          "text": "Est-ce qu\u0027il y a du code disponible en exemple pour les "
+        },
+        {
+          "text": "Fournisseurs de services",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1ac2c06c-13d7-45e4-be50-4e02570164da",
+  "name": "Q127",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui à voir à cette adresse : https://github.com/france-connect/service-providers-examples"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "00e393fe-8093-4576-835e-7364c5651866",
+      "data": [
+        {
+          "text": "Comment fonctionne les bouchons pour les "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d078830f-6faa-43f2-8c28-aaf867816a10",
+  "name": "Q118",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lorsqu\u0027un F.I. développe, il dispose d\u0027un bouchon F.S. pour tester sa solution à cette adresse : https://fsa1.int-cw.dev-franceconnect.fr/"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

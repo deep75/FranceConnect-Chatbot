@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "105067ff-3621-4a49-a775-5229e04416ca",
+      "data": [
+        {
+          "text": "Comment fonctionne le SSO si l\u0027agent connecté doit se reconnecter avec une autre casquette ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c49f306-e7e5-41d3-987c-f2d14807a39f",
+  "name": "Q111",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Cette question sera abordée lors de la discussion sur les multi-rôles lors de l\u0027Openlab du 21 septembre 2017 !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

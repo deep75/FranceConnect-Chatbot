@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "e7c521d9-7b08-4b6e-adc9-e0ec0bdccf81",
+      "data": [
+        {
+          "text": "Quel protocole de sécurité est utilisé par FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5a0c8f9d-46c0-4c6f-87f8-04764714abc2",
+  "name": "Q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "TLS 1.2 est la version du protocole HTTPS utilisé. Les versions précédentes ne sont pas acceptées sur FranceConnect."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

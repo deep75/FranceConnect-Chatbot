@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "33b1b6c6-fbf1-4faf-bf45-d2b5ea7a4217",
+      "data": [
+        {
+          "text": "Y a-t-il "
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " plateforme d\u0027échange pour les membres du pilote "
+        },
+        {
+          "text": "FranceConnect Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a177cc5a-abc3-461c-be92-232dcf18ef05",
+  "name": "Q101",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui en vous rendant sur Slack à cette adresse : http://atenadinsic.slack.com/"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

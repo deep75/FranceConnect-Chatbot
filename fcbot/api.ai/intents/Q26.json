@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "ec4f4912-224f-4999-ad8d-17c0930fc2cf",
+      "data": [
+        {
+          "text": "Vous souhaitez en savoir plus sur la protection de vos données personnelles ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e3bcfc4e-17be-4176-a222-b0fd7fb0906d",
+  "name": "Q26",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Découvrez ici les bonnes pratiques publiées par la Commission nationale de l\u0027informatique et des libertés (CNIL) : https://www.cnil.fr/fr/maitriser-mes-donnees"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

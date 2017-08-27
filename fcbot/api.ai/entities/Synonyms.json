@@ -1,0 +1,107 @@
+{
+  "id": "b8134a33-7ea5-4bf7-816c-066bdb5edb8c",
+  "name": "Synonyms",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Documentation",
+      "synonyms": [
+        "Documentation",
+        "information",
+        "renseignement",
+        "Doc",
+        "info",
+        "truc",
+        "trucs",
+        "news",
+        "infos",
+        "informations",
+        "renseignements"
+      ]
+    },
+    {
+      "value": "FranceConnect",
+      "synonyms": [
+        "FC",
+        "FCP",
+        "FCA",
+        "FCE",
+        "France Connect",
+        "FranceConnect"
+      ]
+    },
+    {
+      "value": "Particulier",
+      "synonyms": [
+        "Particulier",
+        "Citoyen"
+      ]
+    },
+    {
+      "value": "Agent",
+      "synonyms": [
+        "Agent",
+        "fonctionnaire"
+      ]
+    },
+    {
+      "value": "FCA",
+      "synonyms": [
+        "FCA",
+        "FranceConnect Agent",
+        "France Connect Agent"
+      ]
+    },
+    {
+      "value": "FCE",
+      "synonyms": [
+        "FCE",
+        "FranceConnect Entreprise",
+        "France Connect Entreprise"
+      ]
+    },
+    {
+      "value": "FI",
+      "synonyms": [
+        "FI",
+        "Fournisseur d\u0027identités",
+        "Fournisseurs d\u0027identités",
+        "F.I."
+      ]
+    },
+    {
+      "value": "FS",
+      "synonyms": [
+        "FS",
+        "Fournisseur de services",
+        "Fournisseurs de services",
+        "F.S."
+      ]
+    },
+    {
+      "value": "RIE",
+      "synonyms": [
+        "RIE",
+        "Reseau Interministériel de l\u0027Etat",
+        "R.I.E."
+      ]
+    },
+    {
+      "value": "RGPD",
+      "synonyms": [
+        "RGPD",
+        "Reglement general sur la protection des données personnelles",
+        "Directive européenne sur la protection des données personnelles"
+      ]
+    },
+    {
+      "value": "CNIL",
+      "synonyms": [
+        "CNIL",
+        "Commission nationale informatique et libertés"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

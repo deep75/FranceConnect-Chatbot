@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "b38a3554-d68c-45d9-a94d-dd59bb0986e9",
+      "data": [
+        {
+          "text": "Quand ont lieu les prochaines journées développeurs ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e30dbbec-ac1a-450e-83ff-07b2f52f7cc1",
+      "data": [
+        {
+          "text": "Quand aura lieu le prochain Openlab "
+        },
+        {
+          "text": "FranceConnect",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "33f18887-7126-4542-b648-903fc4c91600",
+  "name": "Q102",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Vous pouvez trouver les événements relatifs à FranceConnect Particuliers et FranceConnect Agent à cette adresse : https://partenaires.franceconnect.gouv.fr/evenements"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

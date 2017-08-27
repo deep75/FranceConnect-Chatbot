@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "9db84fb0-eb63-4a85-897b-60fc5d6cd94b",
+      "data": [
+        {
+          "text": "Comment dois-je réconcilier l\u0027identité pivot renvoyée par FranceConnect avec ma base d\u0027utilisateurs existante ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55e9a690-b096-4a5d-9337-571c84269e19",
+  "name": "Q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "1er cas : l’utilisateur crée un nouveau compte en utilisant FC.\n\nVous prenez tout ou partie des données (à minima le sub et si prévu dans votre déclaration CNIL, l\u0027identité pivot et les données de contact), vous demandez à l’utilisateur de compléter si besoin et vous créez le compte chez vous :\n\n    en communiquant à l’utilisateur que dorénavant il devra utiliser FC pour accéder à ce compte (PRECONISÉ par l’équipe FC).\n    en communiquant à l’utilisateur un identifiant/mdp SIHM en mode secours ET qu’il a également la possibilité d’accéder avec FC (NON PRECONISÉ car trop compliqué pour l’utilisateur)\n\n2nd cas : l’utilisateur souhaite se connecter et a déjà un compte existant.\n\nLe FS doit opérer une réconciliation :\n\n    soit automatiquement sans solliciter l’utilisateur : ceci est rare car sous-entend que le FS détient dans sa base l’ensemble des données pivot.\n    soit en demandant explicitement à l’utilisateur un « secret » que vous détenez également et que vous pouvez contrôler (exemple : un N° de client, de facture, de permis,…). Le pire (donc A EVITER) étant de demander à l’utilisateur de saisir son identifiant/mdp SIHM.\n\nLe sub est associé au compte existant.\n\nPar la suite, pour l’utilisateur qui souhaite se connecter à un compte existant de manière récurrente : rien de plus simple, le FS récupère le sub et affiche le compte correspondant.\n\nIl existe un sous-cas particulier :\n\n    soit parce que le FS démarre directement sa collecte de clients avec FC.\n    soit parce qu’il n’y a aucun enjeu à proposer à l’utilisateur un historique de son activité.\n\nC’est le cas le plus simple à gérer : chaque nouvelle connexion est une création de compte."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "21526399-a5d9-4a65-a5e2-1335f2b746ab",
+      "data": [
+        {
+          "text": " Est-ce que je peux savoir via quel Fournisseur d\u0027Identité l\u0027utilisateur s\u0027est identifié/authentifié ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cb66afa8-f4b4-4e4e-8947-a2efe1df4eeb",
+  "name": "Q14",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, ceci n\u0027est pas le fonctionnement de FranceConnect."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

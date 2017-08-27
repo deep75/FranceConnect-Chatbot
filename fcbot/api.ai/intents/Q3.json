@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "d4bff2e1-0424-48ce-a5b9-259d79021aef",
+      "data": [
+        {
+          "text": "En tant que fournisseur de service, comment mettre en oeuvre FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2fd0eb41-5d7e-41da-a563-6dd236e4f8e4",
+  "name": "Q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le processus d\u0027implémentation de FranceConnect repose sur les étapes suivantes :\n\nLes étapes\n\n    Inscription à FranceConnect\n    Intégration d’un bouton d’action FranceConnect\n    Implémentation de la déconnexion\n    Information auprès de la CNIL\n    Recette et mise en production\n\nLes détails de chacune de ces sections sont disponibles dans l\u0027Annexe processus de raccordement des conditions générales d\u0027utilisation."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

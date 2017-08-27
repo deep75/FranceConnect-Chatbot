@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "abc07413-6918-41e3-901d-763df59acd34",
+      "data": [
+        {
+          "text": "Où écrire au support en cas de problème technique ou fonctionnel sur "
+        },
+        {
+          "text": "FranceConnect",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d27374df-77ee-46a6-bca0-f0018c6deb89",
+  "name": "Q107",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "En nous écrivant à cette adresse électronique : support.agents@franceconnect.gouv.fr !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

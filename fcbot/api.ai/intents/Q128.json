@@ -1,0 +1,111 @@
+{
+  "userSays": [
+    {
+      "id": "15c328bb-0b69-43cb-8bec-e6b72855547e",
+      "data": [
+        {
+          "text": "Quelles sont les exigences pour devenir "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10ce8c47-3973-416d-96aa-8bc1129d8de6",
+      "data": [
+        {
+          "text": "Quelles sont les conditions pour devenir "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c83300f-db38-43f5-8a8e-60d63f96b47e",
+      "data": [
+        {
+          "text": "Quelles sont les exigences pour devenir "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "48243078-4412-424d-a35d-c8c5a431f661",
+      "data": [
+        {
+          "text": "Quelles sont les conditions pour devenir "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4371f940-b25c-4cbd-a097-d0f52ae059ab",
+  "name": "Q128",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Dans le cadre du Pilote : vous référez au CR de l\u0027Openlab 7 ou écrire à l\u0027adresse partenaire. Après le Pilote : ce sont les CDA/CGU qui définiront ces conditions, celles-ci sont en cours d\u0027élaboration dans le cadre du pilote !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

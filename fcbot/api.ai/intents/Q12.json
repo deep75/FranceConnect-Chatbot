@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "fa3d604b-abb1-46ac-bc8e-0af977ec8c37",
+      "data": [
+        {
+          "text": "Quelle est la longueur du champ sub ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d5c33187-3baa-4a32-bc1a-f2fb49d206f7",
+  "name": "Q12",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "La longueur définie par la norme OpenID Connect est de 255 caractères.\n\nBien que FranceConnect ne génère qu\u0027un sub de 64 caractères, vous devez pouvoir gérer une longueur max de 255."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

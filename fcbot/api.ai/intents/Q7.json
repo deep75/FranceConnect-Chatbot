@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "49a2738a-f9c7-4ca6-8bdd-594f0f93a95c",
+      "data": [
+        {
+          "text": "Où trouver les boutons d\u0027intégration FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "955f27b1-06ba-4bbd-b626-4d477de78e76",
+  "name": "Q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Les boutons d\u0027intégration FranceConnect sont disponibles dans la section \"Intégration d\u0027un bouton FranceConnect\" du portail de documentation : https://franceconnect.gouv.fr/fournisseur-service#buttons\nDes packs sont disponibles en svg, jpg et png."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

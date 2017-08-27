@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "5ad7e7c0-5e8a-4632-8cd1-a0f109d9af09",
+      "data": [
+        {
+          "text": "Quelles sont les "
+        },
+        {
+          "text": "informations",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " obligatoires dans "
+        },
+        {
+          "text": "FCA",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74b73e18-b09d-42b9-9f76-c933551ac824",
+  "name": "Q122",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Elles sont décrites dans la documention à cette adresse : https://fcagentdevelopers.integ01.dev-franceconnect.fr"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "8c667174-0ed7-4a49-bdaf-d7bb6bec2e1b",
+      "data": [
+        {
+          "text": "En tant qu\u0027intégrateur FranceConnect dois-je créer autant de comptes que de fournisseurs de service à intégrer ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "df1523cf-f6bc-4c3e-969d-a53c16f6f0ee",
+  "name": "Q17",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui, il est impératif de créer un compte au portail FranceConnect.gouv.fr par fournisseur de service afin d\u0027obtenir un client id/client secret par FS. (Ex: Vous êtes intégrateur et vous travaillez pour la mairie A et le département B, vous devrez avoir un compte pour chacun de ces 2 clients) Sachez de plus qu\u0027en vous connectant vous pourrez associer plusieurs emails pour chacun des comptes."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

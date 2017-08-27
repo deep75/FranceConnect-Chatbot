@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "e5abc275-e083-4863-93df-38f226a2723e",
+      "data": [
+        {
+          "text": "Y\u0027a-t-il "
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " exigence sur les logs techniques générés par les "
+        },
+        {
+          "text": "Fournisseurs d\u0027identités",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " et les "
+        },
+        {
+          "text": "Fournisseurs de Services",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b5ab401-90c6-4d20-978e-7d0d2c4e3331",
+      "data": [
+        {
+          "text": "Y\u0027a-t-il "
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " exigence sur les logs techniques générés par les "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " et les "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "909b79f4-1c6a-4d92-b30c-a3adc6f6922e",
+  "name": "Q113",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "FCA se charge de remonter un niveau de logs suffisant permettant d\u0027assurer la traçabilité des accès des opérations. Ces traces dans les logs peuvent être récupérées si besoin.\nC\u0027est au FI / FS de se poser la question de la tracabilité des accès et des opérations au regard des besoins de sécurité !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

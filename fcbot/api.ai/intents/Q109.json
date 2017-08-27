@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "6d936eb9-403a-4352-9475-54997389cf7d",
+      "data": [
+        {
+          "text": "Comment cela va fonctionner avec les agents qui sont \"multi-rôles\"?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a12f1cdf-f8dd-4683-a65f-57f9f9400b24",
+  "name": "Q109",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Voir la présentation du SICTIAM à l\u0027Openlab et à déterminer sous forme de dicussion."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

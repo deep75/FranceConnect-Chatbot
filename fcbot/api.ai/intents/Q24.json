@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "799a9e4d-069e-46ab-930c-de144fa9f4a1",
+      "data": [
+        {
+          "text": "Comment fonctionne FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e386e53a-998b-4581-ac4a-82bdd34bfab2",
+      "data": [
+        {
+          "text": "Qu\u0027est ce que FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd9d0647-1928-47cb-b045-92feb0fe9f82",
+      "data": [
+        {
+          "text": "C\u0027est quoi FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2de8f25a-8348-4854-9139-7f41069b29aa",
+  "name": "Q24",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Vous avez déjà un compte auprès d\u0027Impots.gouv.fr, d\u0027Ameli.fr ou de La Poste ? FranceConnect est le bouton qui vous permet de vous connecter aux services publics en ligne en utilisant l\u0027un de ces trois comptes. Aucune inscription au préalable. Plus besoin de mémoriser de multiples identifiants et mots de passe.\n\nL\u0027Etat vous garantit que :\n\n- Lorsque vous utilisez l\u0027un de ces comptes (Impots.gouv.fr, Ameli.fr ou un compte La Poste) pour accéder à un service en ligne, seule votre identité est transmise. Rien d\u0027autre.\n\n- Ni Impots.gouv.fr, ni Ameli.fr et ni un compte La Poste ne tracent votre navigation."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "ead31d89-5c1b-45aa-9f85-a1aeb9694121",
+      "data": [
+        {
+          "text": "Est-ce qu\u0027il y a du code en exemple pour les "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "18be1f76-f457-4bca-8630-c6cb546385fa",
+  "name": "Q130",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui, à cette adresse : https://github.com/france-connect/identity-providers-examples"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

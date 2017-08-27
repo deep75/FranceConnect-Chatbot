@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "5123afc1-e99c-499b-9438-c9b3e632c610",
+      "data": [
+        {
+          "text": "Est-il possible d\u0027afficher la mire FranceConnect dans une iFrame ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "24dc6a28-091f-40e4-a37d-293dae3524ad",
+  "name": "Q15",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non, pour des raisons de sécurité, il n\u0027est pas possible d\u0027afficher la mire FC dans une iframe."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "ac99fc75-1417-4af1-9edb-3dabfebc4b31",
+      "data": [
+        {
+          "text": "Quel protocole doit être implémenté afin de communiquer avec "
+        },
+        {
+          "text": "FCA",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd3ce09f-54d7-434a-81d3-e71d034f1e5c",
+  "name": "Q115",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OpenID Connect doit être utilisé !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

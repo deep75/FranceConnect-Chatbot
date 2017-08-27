@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "c02ca5e4-1f67-4782-b90b-f83c4b3b3fee",
+      "data": [
+        {
+          "text": "Faut il prévoir d\u0027établir des conventions entre "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " et "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": ", et avec "
+        },
+        {
+          "text": "FCA",
+          "alias": "Synonyms2",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " dans le cadre du pilote ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d91e14ba-b3b9-4717-84bf-b6d59916d829",
+  "name": "Q126",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms2",
+          "value": "$Synonyms2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oui, même si il s\u0027agit d\u0027un document simplifié (page A4) car limité au engagement dans le cadre du pilote, des conventions seront établies (modèle de document à produire par la DINSIC) !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "bd844180-4b75-4d0f-8b3a-6d2c7a59a19c",
+      "data": [
+        {
+          "text": "Combien d\u0027utilisateurs peuvent se servir de FranceConnect ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6dc0ca38-8191-4db7-948e-42bf2d4ba236",
+  "name": "Q16",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Cela dépend des FI proposés par FranceConnect. A titre informatif, pour FranceConnect Particulier, la DGFIP et Améli disposent chacun de plus de 20 millions de comptes."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

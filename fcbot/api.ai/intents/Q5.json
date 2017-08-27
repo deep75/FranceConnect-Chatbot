@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "0ae241b1-1516-4406-a3b3-e89bc8a2e7a6",
+      "data": [
+        {
+          "text": "Quels sont les principaux points d\u0027attention lors de l\u0027intégration du bouton ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "23c942ce-0e4b-4c4c-929a-fa6d4a084132",
+  "name": "Q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le bouton FranceConnect doit aussi bien figurer sur la page de connexion que sur la page de création de compte (exemple)\nUne réconciliation/dissociation de compte sera à prévoir si vous souhaitez lier les comptes de votre base de données usagers locale avec FranceConnect : https://franceconnect.gouv.fr/usages/telepoints"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

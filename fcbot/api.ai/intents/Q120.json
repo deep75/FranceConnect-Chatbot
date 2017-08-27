@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "d4988fab-32d1-4ae1-aa1d-88862a27030f",
+      "data": [
+        {
+          "text": "Quel est le statut du projet vis-à-vis de la "
+        },
+        {
+          "text": "CNIL",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " et de la directive "
+        },
+        {
+          "text": "RGPD",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d2538392-74dd-4505-872a-736da725fa35",
+  "name": "Q120",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "La CNIL a été consultée. Le produit FranceConnect Agents sera co-construit avec les équipes de la CNIL !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

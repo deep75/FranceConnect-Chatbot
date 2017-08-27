@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "21fc9470-6263-49a5-ac41-d9816f068f64",
+      "data": [
+        {
+          "text": "A partir de quelle date le pilote "
+        },
+        {
+          "text": "FC",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " sera t\u0027il exposé sur le "
+        },
+        {
+          "text": "RIE",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2aa9a708-aff2-4bb3-b4a5-42281f734323",
+  "name": "Q105",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Plusieurs FS nous ont sollicité sur ce point, qui n\u0027était pas une priorité de la feuille de route prévue. Nous allons instruire les conditions de mise en oeuvre d\u0027une instance FC A sur le RIE au cours de l\u0027été. Ce point sera évoqué au prochain openlab !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,145 @@
+{
+  "userSays": [
+    {
+      "id": "3e3d8057-d1d8-4821-a774-708393508f72",
+      "data": [
+        {
+          "text": "Comment gère t-on les problèmes d\u0027indisponibilités d\u0027"
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "FI",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " par exemple en dehors des horaires ouvrés ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "55c7ece3-84cf-4b6b-a909-7cea30ec4cc5",
+      "data": [
+        {
+          "text": "Que se passe t\u0027il lors d\u0027"
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " connexion effectuée avec la mauvaise reconnaissance "
+        },
+        {
+          "text": "agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e7d5c0aa-4485-47c7-86f9-c6b40c9be947",
+      "data": [
+        {
+          "text": "Et dans le cas d\u0027"
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " connexion effectuée avec la mauvaise reconnaissance "
+        },
+        {
+          "text": "agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9db8442f-c391-4093-a1f2-13ad0ce85141",
+      "data": [
+        {
+          "text": "Comment remonter "
+        },
+        {
+          "text": "une",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " mauvaise identité ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "39be998a-b173-4c5e-8c8d-fdd6294302ac",
+  "name": "Q133",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "C\u0027est à discuter en Openlab !"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

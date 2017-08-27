@@ -1,0 +1,37 @@
+{
+  "userSays": [
+    {
+      "id": "f24c9bbd-27a5-4f6e-94a2-1509aa84bd4d",
+      "data": [
+        {
+          "text": "Comment tester la signature de l\u0027id token (Json Web Token) ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c9c89190-71ed-40a6-856f-5be783beea83",
+  "name": "Q18",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "En allant sur le site https://jwt.io/. Il vous faudra :\n\n    récupérer le JWT encodé renvoyé par FranceConnect et le placer dans la section \"Encoded\",\n    saisir votre client secret dont vous disposez dans le champ \"secret\" de la section \"Verify Signature\",\n    l\u0027algorithme à sélectionner est HS256.\n\nLe résultat décrypté apparaît dans la section \"Payload\"."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

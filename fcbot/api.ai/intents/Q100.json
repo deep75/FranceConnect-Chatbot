@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "2baa00c1-ea62-41b9-a29c-61d1b769966a",
+      "data": [
+        {
+          "text": "C\u0027est quoi "
+        },
+        {
+          "text": "FranceConnect",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60fbde30-26b5-485f-bd64-6b2217f91826",
+      "data": [
+        {
+          "text": "Qu\u0027est ce que c\u0027est que "
+        },
+        {
+          "text": "France Connect",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59e98127-a0bf-4026-a860-1b1b2388aa4c",
+      "data": [
+        {
+          "text": "Qu\u0027est ce que le pilote "
+        },
+        {
+          "text": "FranceConnect",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3c43309f-e7a9-42a1-bdcd-c210555dd61e",
+  "name": "Q100",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le pilote FranceConnect Agent constitue une nouvelle étape dans la construction d\u0027un système d\u0027identification et authentification unique pour l\u0027ensemble des agents de l\u0027Etat. Il fait suite à une expérimentation réalisée à l\u0027occasion d\u0027un projet PIA porté par le Ministère de l\u0027Intérieur et la Dinsic. Il vise cette fois ci à poursuivre les travaux réalisés en utilisant le service en production, sur un périmètre réduit mais représentatif de Fournisseurs de Services et de Fournisseurs d\u0027Identité."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

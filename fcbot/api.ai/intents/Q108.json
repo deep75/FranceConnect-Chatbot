@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "2992a9b3-498b-4f62-a9ed-6f4447b8173c",
+      "data": [
+        {
+          "text": "Comment gérer l\u0027intégration dans "
+        },
+        {
+          "text": "FC",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Agent",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " lorsque l\u0027on a des parcs hétérogènes d\u0027annuaire ou pas d\u0027annuaire pour gérer l\u0027existant ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ca603f23-29ac-44e1-a5a4-2f67df25d4ca",
+  "name": "Q108",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Il faut qu\u0027il y ait un FI qui centralise tous les annuaires pour faire l\u0027interface avec FranceConnect Agent. Le FI gère lui-même les interactions avec les différents annuaires."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

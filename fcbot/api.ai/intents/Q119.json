@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "d7f13efe-8566-4b23-8c21-e75571f8c5f9",
+      "data": [
+        {
+          "text": "Comment fonctionne les bouchons pour les "
+        },
+        {
+          "text": "FS",
+          "alias": "Synonyms",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e6fa88c5-2d60-4001-9c5b-9ad7940fed66",
+  "name": "Q119",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms",
+          "value": "$Synonyms",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lorsqu\u0027un FS développe, il dispose d\u0027un bouchon FI pour tester sa solution. FCA fournira l\u0027adresse des différents FI et c\u0027est le FI de test \"DINSIC\" qui fait office de bouchon. Pour s\u0027y connecter , l\u0027identifiant utilisé est : 247095301100810 et le mot de passe : 123"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

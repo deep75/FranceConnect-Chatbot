@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "1e952140-f92e-4387-846b-f4b4b9796cbe",
+      "data": [
+        {
+          "text": "Où trouver des "
+        },
+        {
+          "text": "infos",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " sur "
+        },
+        {
+          "text": "FranceConnect",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "137a359d-e769-457c-885c-5dfb76f632ca",
+      "data": [
+        {
+          "text": "Comment trouver des "
+        },
+        {
+          "text": "informations",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": true
+        },
+        {
+          "text": " sur "
+        },
+        {
+          "text": "France Connect",
+          "alias": "Synonyms1",
+          "meta": "@Synonyms",
+          "userDefined": true
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfca29d4-cf7e-43eb-90fc-3c7836af61b3",
+      "data": [
+        {
+          "text": "Où puis je trouver de la documentation sur FranceConnect Particulier ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5c61c33e-9c2e-452b-833f-76120ef63270",
+  "name": "FAQ1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Synonyms",
+          "name": "Synonyms1",
+          "value": "$Synonyms1",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Vous pouvez vous rendre sur : https://partenaires.franceconnect.gouv.fr/fournisseur-service",
+            "La documentation est accessible sur : https://partenaires.franceconnect.gouv.fr/fournisseur-service"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
