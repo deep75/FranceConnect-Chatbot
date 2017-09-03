@@ -1,5 +1,5 @@
 # franceconnect-chatbot
-Chatbot de test dedié à la FAQ sur FranceConnect Particulier
+Chatbot de test dedié à la FAQ sur FranceConnect Particulier et FranceConnect Agent
 
 ----------
 
